@@ -15,3 +15,8 @@ Given a record of every transaction during a three month period, calculate the r
 $ git clone https://github.com/nihar707/RewardPointsCalculator.git
 
 $ mvn spring-boot: run
+
+There are two apis:
+
+/customers  returns all customers in the system with transaction details, total purchases, total reward points earned and points earned in each month.
+/customers/{customerId} returns single customer object with his transactions, total purchases, total reward points earned and points earned in each month.
