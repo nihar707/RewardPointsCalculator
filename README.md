@@ -18,5 +18,10 @@ $ mvn spring-boot: run
 
 There are two apis:
 
-/customers  returns all customers in the system with transaction details, total purchases, total reward points earned and points earned in each month.
-/customers/{customerId} returns single customer object with his transactions, total purchases, total reward points earned and points earned in each month.
+`/customers`  returns all customers in the system with transaction details, total purchases, total reward points earned and points earned in each month. Response:
+![image](https://user-images.githubusercontent.com/109686370/180075679-1e0afcba-7b4e-4a94-84a5-1ded7aa8cd2b.png)
+
+
+`/customers/{customerId}` returns single customer object with his transactions, total purchases, total reward points earned and points earned in each month. Response: 
+![image](https://user-images.githubusercontent.com/109686370/180075932-ed7c9eb6-69dd-496c-b000-16b04997c1c2.png)
+
